@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification-Scheduler-Service", "Notification-Scheduler-Service.csproj", "{EC58D871-BA39-4770-A3DB-60B53E1F6333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Notification-Scheduler", "..\..\Domain\Domain.Notification-Scheduler\Domain.Notification-Scheduler.csproj", "{B7256F8C-1D77-4A76-81B1-18C038B0E775}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{2104F9BE-A0E9-4D6F-80AE-94A040475EFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Application", "1.Application", "{2D900B4A-77B0-477C-9797-7D7F5CD91C66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Notification-Scheduler", "..\..\Infrastructure\Infrastructure.Notification-Scheduler\Infrastructure.Notification-Scheduler.csproj", "{0582B7A0-A712-4C4E-9715-72DF064232F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infrastructure", "3.Infrastructure", "{214F4E09-0305-406F-A0F6-17AEE35458B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.LibrayCommuns", "4.LibrayCommuns", "{B38A87B3-4BA2-445B-B9A8-11D4F159A20B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryCommuns", "..\..\Library\LibraryCommuns\LibraryCommuns.csproj", "{A7A5B5A2-8FE0-4D5F-8E87-AE0C3AFEA7FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC58D871-BA39-4770-A3DB-60B53E1F6333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC58D871-BA39-4770-A3DB-60B53E1F6333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC58D871-BA39-4770-A3DB-60B53E1F6333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC58D871-BA39-4770-A3DB-60B53E1F6333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7256F8C-1D77-4A76-81B1-18C038B0E775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7256F8C-1D77-4A76-81B1-18C038B0E775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7256F8C-1D77-4A76-81B1-18C038B0E775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7256F8C-1D77-4A76-81B1-18C038B0E775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0582B7A0-A712-4C4E-9715-72DF064232F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0582B7A0-A712-4C4E-9715-72DF064232F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0582B7A0-A712-4C4E-9715-72DF064232F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0582B7A0-A712-4C4E-9715-72DF064232F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A5B5A2-8FE0-4D5F-8E87-AE0C3AFEA7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A5B5A2-8FE0-4D5F-8E87-AE0C3AFEA7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A5B5A2-8FE0-4D5F-8E87-AE0C3AFEA7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A5B5A2-8FE0-4D5F-8E87-AE0C3AFEA7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC58D871-BA39-4770-A3DB-60B53E1F6333} = {2D900B4A-77B0-477C-9797-7D7F5CD91C66}
+		{B7256F8C-1D77-4A76-81B1-18C038B0E775} = {2104F9BE-A0E9-4D6F-80AE-94A040475EFA}
+		{0582B7A0-A712-4C4E-9715-72DF064232F3} = {214F4E09-0305-406F-A0F6-17AEE35458B8}
+		{A7A5B5A2-8FE0-4D5F-8E87-AE0C3AFEA7FF} = {B38A87B3-4BA2-445B-B9A8-11D4F159A20B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E7D37F4-3C32-41F0-A7F4-F8251FBE3AA5}
+	EndGlobalSection
+EndGlobal
