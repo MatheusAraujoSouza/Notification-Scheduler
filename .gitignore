@@ -305,3 +305,14 @@ $RECYCLE.BIN/
 
 # Windows Installer files
 *.cab
+
+*.cache
+*.vsidx
+*.bin
+
+**.cache
+**.vsidx
+**.bin
+
+
+
